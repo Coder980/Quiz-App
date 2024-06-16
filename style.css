@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FB;
+    font-family: 'Inter', sans-serif;
+    padding: 0 4.6875em;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    font-family: inherit;
+    color: #F5F7FB;
+    background: #4D5B9E;
+    border-radius: 0.9375em;
+    border: none;
+    cursor: pointer;
+}
+
+hr {
+    border: 0.00625em solid #DBDEF0;
+    margin-bottom: 0.9375em;
+}
+
+select {
+    color: inherit;
+    padding: 0.234375em 0;
+    font-size: 0.8rem;
+    margin-bottom: 0.5em;
+}
+
+div.start-container,
+.start-form {
+    display: flex;
+    flex-direction: column;
+}
+
+div.start-container {
+    color: #293264;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.start-title {
+    font-size: 1.9375rem;
+    margin: 0 0 0.4375em 0;
+}
+
+.start-txt {
+    margin: 0 0 0.6em 0;
+}
+
+.start-form {
+    margin: 0 0 0.5em 0;
+}
+
+.start-form label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+.start-form input {
+    border: 0.1em solid #4D5B9E;
+    color: inherit;
+    margin-bottom: 0.5em;
+}
+
+.question-input {
+    padding: 0.1875em;
+}
+
+.start-btn {
+    width: 193px;
+    height: 52px;
+    font-weight: 500;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-form {
+    color: #293264;
+    margin-bottom: 0.3125em;
+}
+
+.question {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.625em;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.625em;
+    margin-bottom: 0.9375em;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 25%;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0px;
+    cursor: pointer;
+}
+
+.answer-label {
+    font-size: 0.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    border: 0.1em solid #4D5B9E;
+    border-radius: 0.8em;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.answer-btn,
+.restart-btn {
+    font-size: 0.625rem;
+    font-weight: 500;
+}
+
+.answer-btn {
+    font-size: 0.625rem;
+    padding: 1.1em 0;
+    margin-bottom: 2.5em;
+    width: 120px;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.score-txt {
+    color: #293264;
+    font-size: 0.8125rem;
+    font-weight: bold;
+}
+
+.restart-btn {
+    width: 104px;
+    padding: 0.9em 0;
+}
